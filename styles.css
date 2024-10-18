@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.section {
+    background: linear-gradient(45deg, black, blue, orange, white);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.section h2 {
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="radio"] {
+    width: auto;
+}
+
+.watermark {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.2);
+    transform: rotate(-30deg);
+    white-space: nowrap;
+}
+
+.custom-tabs .nav-link {
+    background-color: rgba(0, 0, 255, 0.7);
+    color: white;
+    border: none;
+    margin-right: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.custom-tabs .nav-link.active {
+    background-color: rgba(
+	
+ .section { background-color: #343a40; }
+        .text-white { color: #ffffff; }
+        .custom-tabs .nav-link { border-radius: 0; }
+        .custom-tab-content { margin-top: 20px; }
+        .signature-pad { border: 1px solid #ccc; padding: 10px; position: relative; }
+        .signature-pad canvas { width: 100%; height: 150px; }
+        .btn-secondary { margin-top: 10px; }
